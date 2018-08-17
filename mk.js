@@ -273,8 +273,7 @@ bot.on("message", async message => {
 	}
 });
 bot.on("ready", function() {
-	console.log("ready");
-	bot.user.setStatus("idle");
+	bot.user.setStatus("Idle");
 	bot.user.setGame("To Get Help | 2help");
 });
 bot.on('message', message => {
