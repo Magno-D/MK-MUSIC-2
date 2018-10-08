@@ -274,7 +274,7 @@ bot.on("message", async message => {
 });
 bot.on("ready", function() {
 	bot.user.setStatus("Idle");
-	bot.user.setGame("To Get Help | 2help");
+	bot.user.setGame("To Get Help | ihelp");
 });
 bot.on('message', message => {
 if (message.content === prefix +'help') {
