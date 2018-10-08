@@ -418,7 +418,7 @@ function shuffle(queue) {
 /* MISC FUNCTIONS END */
 /*-------------------*/
 const developers = ["331975722283302912","399164491201249282"]
-const adminprefix = "2";
+const adminprefix = "i";
 bot.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
